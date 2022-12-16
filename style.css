@@ -16,6 +16,11 @@ body{
 			border-radius: 24px;
 }
 
+a{
+  text-decoration: none;
+  color: #212529
+}
+
 
 
 /* Chrome, Safari, Edge, Opera */
