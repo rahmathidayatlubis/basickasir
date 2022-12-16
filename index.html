@@ -20,19 +20,18 @@
     <div class="container pb-5" style="max-width: 768px;">
         <div class="row">
             <div class="col-sm mt-3">
-                <div class="card rounded-0 border border-white">
-                    <div class="card-header bg-secondary rounded-0">
-                        <h1 class="text-center" style="color: #feda00; font-size: 5vmin; font-weight: bold;">PROGRAM
-                            KASIR SEDERHANA</h1>
+                <div class="card bodi">
+                    <div class="card-header">
+                        <h1 class="text-center" style="color: #feda00; font-size: 5vmin; font-weight: bold;">MINI KASIR
+                        </h1>
                     </div>
-                    <div class="card-body p-4 bg-primary">
+                    <div class="card-body p-4">
                         <div class="row">
                             <div class="col-sm">
                                 <div class="form-floating">
-                                    <input type="number"
-                                        class="form-control input rounded-0 bg-secondary border border-0 text-white"
-                                        id="totalBelanja" placeholder="Tunai" name="totalBelanja" />
-                                    <label for="totalBelanja" style="color: white;">Total Belanja</label>
+                                    <input type="number" class="form-control input bodi" id="totalBelanja"
+                                        placeholder="Tunai" name="totalBelanja" />
+                                    <label for="totalBelanja">Total Belanja</label>
                                 </div>
                             </div>
                         </div>
@@ -40,9 +39,9 @@
                         <div class="row">
                             <div class="col-sm">
                                 <div class="form-floating">
-                                    <input type="text" readonly class="form-control-plaintext text-white" id="diskon"
+                                    <input type="text" readonly class="form-control-plaintext" id="diskon"
                                         placeholder="0" value="0" name="diskon" />
-                                    <label for="diskon" style="color: white;">Diskon</label>
+                                    <label for="diskon">Diskon</label>
                                 </div>
                             </div>
                         </div>
@@ -50,9 +49,9 @@
                         <div class="row">
                             <div class="col-sm">
                                 <div class="form-floating">
-                                    <input type="number" readonly class="form-control-plaintext text-white"
-                                        id="totalHarga" placeholder="0" value="0" name="totalHarga" />
-                                    <label for="totalHarga" style="color: white;">Total Harga</label>
+                                    <input type="number" readonly class="form-control-plaintext" id="totalHarga"
+                                        placeholder="0" value="0" name="totalHarga" />
+                                    <label for="totalHarga">Total Harga</label>
                                 </div>
                             </div>
                         </div>
@@ -60,10 +59,9 @@
                         <div class="row">
                             <div class="col-sm">
                                 <div class="form-floating">
-                                    <input type="number"
-                                        class="form-control input rounded-0 bg-secondary border border-0 text-white"
-                                        id="tunai" placeholder="Tunai" name="tunai" />
-                                    <label for="tunai" style="color: white;">Tunai</label>
+                                    <input type="number" class="form-control input bodi" id="tunai" placeholder="Tunai"
+                                        name="tunai" />
+                                    <label for="tunai">Tunai</label>
                                 </div>
                             </div>
                         </div>
@@ -71,22 +69,23 @@
                         <div class="row">
                             <div class="col-sm">
                                 <div class="form-floating">
-                                    <input type="number" readonly class="form-control-plaintext text-white"
-                                        id="kembalian" value="0" name="kembalian" />
-                                    <label for="kembalian" style="color: white;">Kembalian</label>
+                                    <input type="number" readonly class="form-control-plaintext" id="kembalian"
+                                        value="0" name="kembalian" />
+                                    <label for="kembalian">Kembalian</label>
                                 </div>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-sm mt-3">
-                                <ol class="list-group list-group-numbered rounded-0">
-                                    <li class="list-group-item bg-secondary text-white">Jika total belanja lebih besar
+                                <ol class="list-group list-group-numbered bodi rounded p-3">
+                                    <li class="list-group">Jika total belanja lebih besar
                                         dari 100.000
                                         maka
                                         dapat
                                         diskon 3%</li>
-                                    <li class="list-group-item mt-1 bg-secondary text-white">Jika total belanja lebih
+                                    <li class="list-group mt-1">Jika total belanja
+                                        lebih
                                         besar dari
                                         300.000 maka
                                         dapat
@@ -95,14 +94,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card-footer bg-transparent" style="display: flex; justify-content: center;">
+                        <a href="https://github.com/rahmathidayatlubis/basickasir">
+                            <span class="btn btn-transparent rounded text-dark"
+                                style="text-align: right; font-weight: bold;">Source Code
+                            </span>
+                        </a>
+                    </div>
                 </div>
-                <div class="div d-flex pt-2" style="justify-content: right;">
-                    <a href="https://github.com/rahmathidayatlubis/basickasir"
-                        class="btn btn-warning text-dark rounded-0"
-                        style="color: white; text-align: right; font-weight: bold;">Source
-                        Code</a>
-                </div>
-
             </div>
         </div>
     </div>
